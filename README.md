@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## Development
 
-* System dependencies
+Find the correct ruby and node version from the Gemfile and .node-version files.
+Use a version manager such as `mise` to install and use the correct version
 
-* Configuration
+### Running locally
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`docker compose up &` starts a database and adminer for you
+`rails s` starts the server.
